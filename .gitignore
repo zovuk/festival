@@ -1,0 +1,18 @@
+.git
+scss/
+css/custom-styles.css
+css/custom-styles.min.css
+css/custom-variables.css
+css/custom-variables.min.css
+css/mytheme.css
+images/reserve/
+node_modules/
+reserve/
+vendor/
+LICENSE
+collection.html
+gulpfile.js
+package.json
+package-lock.json
+readme.md
+images/Corel Auto-Preserve
