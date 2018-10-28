@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Kit</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Custom built theme - This already includes Bootstrap 4 -->
+  <link rel="stylesheet" href="css/mytheme.min.css">
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-hide js-scroll-trigger" href="#page-top"><img class="img-responsive2"       
+        src="images/logo.png" style="max-height:60px;">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#films">Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#form">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1 class="display-3 d-none d-sm-block">Favorit movies </h1>
+      <h1 class="display-4 d-sm-none">Favorit movies </h1>
+      <p>At your favorite park</p>
+      <br>
+      <p class="lead" style="text-align: end">
+        <a class="btn btn-primary btn-lg border-light js-scroll-trigger" href="#form" role="button">PRE-REGISTER</a>
+      </p>
+    </div>
+  </header>
+
+  <section id="about" class="bg-primary">
+    <div class="container-about">
+      <img src="images/film_festival.jpg" alt="About" class="image-float d-none d-sm-block">
+      <h3>About us</h3>
+      <p>A <strong>Vibes Events Co.</strong> proudly announce that company got the approval 
+        to show movies at <strong>Brooklyn Bridge Park</strong> at this year <strong>"Brooklyn 
+          Outdoor Film Festival"</strong> from <strong>August 5th through 8th</strong>, from 
+          6 pm to midnight. We can't wait to meet the public and to discover awesome films together!</p>
+      <p>Shows will be free and open to everyone, but we ask you to please participate in 
+        pre-registration so that we are able to estimate how many people might come and so 
+        that we can close registration if it reaches the venue’s capacity of 5,000 people. 
+        Which we hope it will.</p>
+      <p>We hope to select and show only your favorite films from <strong>August 5th to 8th 
+        at Brooklyn Bridge Park</strong>. Also, we want to create an event that shows that 
+        films can appeal to audiences of all ages. Please pre-registrate with possible dates 
+        of your participation in this event and please do seggest what movies you think should 
+        be played.<br style="clear: both;" /></p>
+    </div>
+    <div class="container-about bg-primary d-sm-none">
+      <img src="images/film_festival.jpg" alt="About" class="image-xs">
+    </div>
+  </section>
+
+  <section id="films">
+    <div class="container-films">
+      <div class="row">
+        <div class="col-sm">
+          <div class="container-pic bg-primary">
+            <a data-toggle="modal" data-target="#movie-list">
+            <img src="images/movie4.png" alt="The Girl with the Dragon Tattoo" class="image">
+            </a>
+            <div class="date ">
+              <span class="font-weight-bold">05</span><br><span class="month">AUG</span>
+            </div>
+            <div class="fade-desc">
+                Toby, a disillusioned advertising executive, becomes pulled into a world 
+                of time jumping fantasy when a Spanish cobbler believes him to be Sancho Panza. 
+                He gradually becomes unable to tell dreams from reality.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="container-pic bg-primary">
+            <a data-toggle="modal" data-target="#movie-list">
+            <img src="images/movie6.png" alt="The Silver Linings Playbook" class="image">
+            </a>
+            <div class="date ">
+              <span class="font-weight-bold">06</span><br><span class="month">AUG</span>
+            </div>
+            <div class="fade-desc">
+                Ron Stallworth, an African American police officer from Colorado Springs, 
+                CO, successfully manages to infiltrate the local Ku Klux Klan branch with 
+                the help of a Jewish surrogate who eventually becomes its leader. Based on actual events.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="container-pic bg-primary">
+            <a data-toggle="modal" data-target="#movie-list">
+            <img src="images/movie5.png" alt="Chocolat" class="image">
+            </a>
+            <div class="date ">
+              <span class="font-weight-bold">08</span><br><span class="month">AUG</span>
+            </div>
+            <div class="fade-desc">
+                Marcello, a small and gentle dog groomer, finds himself involved in a 
+                dangerous relationship of subjugation with Simone, a former violent boxer 
+                who terrorizes the entire neighborhood.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Modal -->
+  <div class="modal fade" id="movie-list" tabindex="-1" role="dialog" aria-labelledby="movie-listLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-weight-bold" id="exampleModal3Label">List of films</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-light bg-primary">
+            <p>5th August - Thursday</p>
+            <p class="pleft"><span class="font-weight-bold">The Man Who Killed Don Quixote</span><br><small>(dir: Terry Gilliam)</small><br>
+            <span class="font-weight-bold">Everybody Knows</span><br><small>(dir: Asghar Farhadi)</small><br>
+            <span class="font-weight-bold">At War</span><br><small>(dir: St&eacute;phane Briz&eacute;)</small></p>
+            <p>6th August - Friday</p>
+            <p class="pleft"><span class="font-weight-bold">BlacKkKlansman</span><br><small>(dir: Spike Lee)</small><br>
+            <span class="font-weight-bold">The Wild Pear Tree</span><br><small>(dir: Nuri Bilge Ceylan)</small><br>
+            <span class="font-weight-bold">Ayka</span><br><small>(dir: Sergei Dvortsevoy)</small></p>
+            <p>7th August &ndash; Saturday</p>
+            <p class="pleft"><span class="font-weight-bold">Knife + Heart</span><br><small>(dir: Yann Gonzalez)</small><br>
+            <span class="font-weight-bold">Under the Silver Lake</span><br><small>(dir: David Robert Mitchell)</small><br>
+            <span class="font-weight-bold">Three Faces</span><br><small>(dir: Jafar Panahi)</small></p>
+            <p>8th August - Sunday</p>
+            <p class="pleft"><span class="font-weight-bold">Dogman</span><br><small>(dir: Matteo Garrone)</small><br>
+            <span class="font-weight-bold">In My Room</span><br><small>(dir: Ulrich K&ouml;hler)</small><br>
+            <span class="font-weight-bold">My Favorite Fabric</span><br><small>(dir: Gaya Jiji)</small></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+    </div>
+  </footer>
+
+  <!-- /.container -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>
