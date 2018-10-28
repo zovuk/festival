@@ -9,10 +9,8 @@ images/reserve/
 node_modules/
 reserve/
 vendor/
-LICENSE
 collection.html
 gulpfile.js
 package.json
 package-lock.json
-readme.md
 images/Corel Auto-Preserve
