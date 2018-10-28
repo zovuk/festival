@@ -27,3 +27,8 @@
   });
 
 })(jQuery); // End of use strict
+
+// Script for navbar background color change while scrolling
+$(window).scroll(function(){
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 355);
+});
