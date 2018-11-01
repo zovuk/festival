@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 85)
+          scrollTop: (target.offset().top - 70)
         }, 1000, "easeInOutExpo");
         return false;
       }
@@ -28,7 +28,7 @@
 
 })(jQuery); // End of use strict
 
-// Script for navbar background color change while scrolling
+// Script for navbar background color/height change while scrolling
 $(window).scroll(function(){
-  $('nav').toggleClass('scrolled', $(this).scrollTop() > 365);
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 335);
 });
