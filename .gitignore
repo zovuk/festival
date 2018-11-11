@@ -1,4 +1,5 @@
 .git
+.gitignore
 scss/
 css/custom-styles.css
 css/custom-styles.min.css
@@ -14,3 +15,6 @@ gulpfile.js
 package.json
 package-lock.json
 images/Corel Auto-Preserve
+exercise.html
+mytheme.css
+.vscode/
