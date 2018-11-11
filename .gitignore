@@ -5,6 +5,7 @@ css/custom-styles.css
 css/custom-styles.min.css
 css/custom-variables.css
 css/custom-variables.min.css
+css/font.css
 css/mytheme.css
 images/reserve/
 node_modules/
@@ -18,3 +19,4 @@ images/Corel Auto-Preserve
 exercise.html
 mytheme.css
 .vscode/
+fonts/

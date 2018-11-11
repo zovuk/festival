@@ -23,12 +23,12 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 235
+    offset: 50
   });
 
 })(jQuery); // End of use strict
 
 // Script for navbar background color/height change while scrolling
 $(window).scroll(function(){
-  $('nav').toggleClass('scrolled', $(this).scrollTop() > 335);
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
